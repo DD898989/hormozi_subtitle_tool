@@ -1,0 +1,34 @@
+# IDE & Editor Specific Files
+.vscode/
+.idea/
+*.swp
+*.swo
+.vs/
+*.user
+*.suo
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Data & Database
+*.db
+*.db-journal
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+package-lock.json
+
+# .NET Specific
+[Bb]in/
+[Oo]bj/
+
+
+Properties/launchSettings.json
+ggml-base.bin
+.env.cs
